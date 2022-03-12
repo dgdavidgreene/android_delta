@@ -1,9 +1,9 @@
-package com.plcoding.tracker_data.repository
+package com.dgdavidgreene.tracker_data.repository
 
 import com.google.common.truth.Truth.assertThat
-import com.plcoding.tracker_data.remote.OpenFoodApi
-import com.plcoding.tracker_data.remote.malformedFoodResponse
-import com.plcoding.tracker_data.remote.validFoodResponse
+import com.dgdavidgreene.tracker_data.remote.OpenFoodApi
+import com.dgdavidgreene.tracker_data.remote.malformedFoodResponse
+import com.dgdavidgreene.tracker_data.remote.validFoodResponse
 import io.mockk.mockk
 import kotlinx.coroutines.runBlocking
 import okhttp3.OkHttpClient

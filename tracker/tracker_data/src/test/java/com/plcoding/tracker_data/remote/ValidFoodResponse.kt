@@ -1,4 +1,4 @@
-package com.plcoding.tracker_data.remote
+package com.dgdavidgreene.tracker_data.remote
 
 val validFoodResponse = """
     {

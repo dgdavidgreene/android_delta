@@ -1,13 +1,13 @@
-package com.plcoding.tracker_domain.use_case
+package com.dgdavidgreene.tracker_domain.use_case
 
 import com.google.common.truth.Truth.assertThat
-import com.plcoding.core.domain.model.ActivityLevel
-import com.plcoding.core.domain.model.Gender
-import com.plcoding.core.domain.model.GoalType
-import com.plcoding.core.domain.model.UserInfo
-import com.plcoding.core.domain.preferences.Preferences
-import com.plcoding.tracker_domain.model.MealType
-import com.plcoding.tracker_domain.model.TrackedFood
+import com.dgdavidgreene.core.domain.model.ActivityLevel
+import com.dgdavidgreene.core.domain.model.Gender
+import com.dgdavidgreene.core.domain.model.GoalType
+import com.dgdavidgreene.core.domain.model.UserInfo
+import com.dgdavidgreene.core.domain.preferences.Preferences
+import com.dgdavidgreene.tracker_domain.model.MealType
+import com.dgdavidgreene.tracker_domain.model.TrackedFood
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.Before

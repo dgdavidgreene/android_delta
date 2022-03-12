@@ -1,8 +1,8 @@
 package com.dgdavidgreene.delta.repository
 
-import com.plcoding.tracker_domain.model.TrackableFood
-import com.plcoding.tracker_domain.model.TrackedFood
-import com.plcoding.tracker_domain.repository.TrackerRepository
+import com.dgdavidgreene.tracker_domain.model.TrackableFood
+import com.dgdavidgreene.tracker_domain.model.TrackedFood
+import com.dgdavidgreene.tracker_domain.repository.TrackerRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableSharedFlow
 import java.time.LocalDate
