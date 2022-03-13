@@ -50,9 +50,10 @@ class MainActivity : ComponentActivity() {
                 ) {
                     NavHost(
                         navController = navController,
-                        startDestination = if(shouldShowOnboarding) {
+                        startDestination = Route.GRATITUDE
+/*                        startDestination = if(shouldShowOnboarding) {
                             Route.WELCOME
-                        } else Route.TRACKER_OVERVIEW
+                        } else Route.TRACKER_OVERVIEW*/
                     ) {
                         composable(Route.WELCOME) {
                             WelcomeScreen(onNextClick = {
@@ -66,6 +67,11 @@ class MainActivity : ComponentActivity() {
                                     navController.navigate(Route.HEIGHT)
                                 }
                             )
+                        }
+                        composable(Route.GRATITUDE) {
+                            GenderScreen(onNextClick = {
+                                navController.navigate(Route.AGE)
+                            })
                         }
                         composable(Route.GENDER) {
                             GenderScreen(onNextClick = {
