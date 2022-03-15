@@ -5,4 +5,6 @@ data class Suggestion(
     val description: String?,
     val ritual: Ritual,
     val preamble: Preamble,
+    val ordinal: Int,
+    val associations: List<Association>,
 )

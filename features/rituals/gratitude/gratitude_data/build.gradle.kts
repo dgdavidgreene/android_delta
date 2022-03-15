@@ -3,5 +3,12 @@ apply {
 }
 
 dependencies {
+    "implementation"(project(Modules.domain))
+    "implementation"(project(Modules.gratitudeDomain))
+
+    "implementation"(Retrofit.okHttp)
+    "implementation"(Retrofit.retrofit)
+    "implementation"(Retrofit.okHttpLoggingInterceptor)
+    "implementation"(Retrofit.moshiConverter)
 
 }
