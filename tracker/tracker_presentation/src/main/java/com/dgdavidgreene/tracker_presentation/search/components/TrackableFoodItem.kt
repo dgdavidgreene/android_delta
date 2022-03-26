@@ -15,7 +15,8 @@ import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.unit.dp
 import coil.annotation.ExperimentalCoilApi
 import coil.compose.rememberImagePainter
-import com.dgdavidgreene.core_ui.LocalSpacing
+//import com.dgdavidgreene.core_ui.LocalSpacing
+import com.dgdavidgreene.ui.LocalSpacing
 import com.dgdavidgreene.tracker_presentation.R
 import com.dgdavidgreene.tracker_presentation.search.TrackableFoodUiState
 import androidx.compose.foundation.layout.*

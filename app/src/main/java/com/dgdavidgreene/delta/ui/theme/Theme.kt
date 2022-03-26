@@ -8,7 +8,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.graphics.Color
 import com.dgdavidgreene.deltaprep.ui.theme.Typography
-import com.dgdavidgreene.core_ui.*
+//import com.dgdavidgreene.core_ui.*
+import com.dgdavidgreene.ui.*
 
 private val DarkColorPalette = darkColors(
     primary = BrightGreen,

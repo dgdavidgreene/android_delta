@@ -12,7 +12,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.dgdavidgreene.core.util.UiEvent
-import com.dgdavidgreene.core_ui.LocalSpacing
+//import com.dgdavidgreene.core_ui.LocalSpacing
+import com.dgdavidgreene.ui.LocalSpacing
 import com.dgdavidgreene.core.R
 import com.dgdavidgreene.core.domain.model.GoalType
 import com.dgdavidgreene.onboarding_presentation.components.ActionButton
