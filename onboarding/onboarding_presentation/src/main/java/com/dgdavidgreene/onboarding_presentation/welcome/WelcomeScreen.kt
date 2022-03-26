@@ -10,7 +10,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import com.dgdavidgreene.core.R
 import com.dgdavidgreene.ui.LocalSpacing
-import com.dgdavidgreene.onboarding_presentation.components.ActionButton
+import com.dgdavidgreene.ui.components.ActionButton
 
 @Composable
 fun WelcomeScreen(
