@@ -1,4 +1,4 @@
-package com.dgdavidgreene.onboarding_domain
+package com.dgdavidgreene.gratitude_domain
 
 import org.junit.Test
 
