@@ -41,13 +41,17 @@ android {
 dependencies {
     implementation Compose.compiler
     implementation Compose.ui
-    implementation Compose.uiToolingPreview
+    //implementation Compose.uiToolingPreview
     implementation Compose.hiltNavigationCompose
     implementation Compose.material
     implementation Compose.runtime
     implementation Compose.navigation
     implementation Compose.viewModelCompose
     implementation Compose.activityCompose
+
+
+    debugImplementation AndroidX.tooling
+    implementation AndroidX.toolingPreview
 
     kapt DaggerHilt.hiltCompiler
     implementation DaggerHilt.hiltAndroid
