@@ -48,7 +48,7 @@ dependencies {
     implementation Compose.navigation
     implementation Compose.viewModelCompose
     implementation Compose.activityCompose
-
+    implementation AndroidX.appWindow
 
     debugImplementation AndroidX.tooling
     implementation AndroidX.toolingPreview

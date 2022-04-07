@@ -8,7 +8,7 @@ import androidx.lifecycle.viewModelScope
 import com.dgdavidgreene.core.domain.preferences.Preferences
 import com.dgdavidgreene.core.util.UiEvent
 import com.dgdavidgreene.core.util.UiText
-import com.dgdavidgreene.onboarding_presentation.R
+import com.dgdavidgreene.core.R
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.receiveAsFlow
