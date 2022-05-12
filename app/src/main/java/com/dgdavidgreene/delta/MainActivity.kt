@@ -16,6 +16,7 @@ import coil.annotation.ExperimentalCoilApi
 import com.dgdavidgreene.delta.ui.theme.DeltaTheme
 import com.dgdavidgreene.core.domain.preferences.Preferences
 import com.dgdavidgreene.delta.navigation.Route
+import com.dgdavidgreene.gratitude_ui.gratitude_overview.GratitudeOverviewScreen
 import com.dgdavidgreene.onboarding_presentation.activity.ActivityScreen
 import com.dgdavidgreene.onboarding_presentation.age.AgeScreen
 import com.dgdavidgreene.onboarding_presentation.gender.GenderScreen
@@ -52,7 +53,7 @@ class MainActivity : ComponentActivity() {
                         navController = navController,
                         startDestination = if(shouldShowOnboarding) {
                             Route.WELCOME
-                        } else Route.TRACKER_OVERVIEW
+                        } else Route.GRATITUDE   // .TRACKER_OVERVIEW
                     ) {
                         composable(Route.WELCOME) {
                             WelcomeScreen(onNextClick = {
@@ -117,6 +118,10 @@ class MainActivity : ComponentActivity() {
                                                 "/$year"
                                     )
                                 }
+                            )
+                        }
+                        composable(Route.GRATITUDE) {
+                            GratitudeOverviewScreen(
                             )
                         }
                         composable(
