@@ -1,9 +1,11 @@
+@file:Suppress("MemberVisibilityCanBePrivate")
+
 object Compose {
     const val composeVersion = "1.1.1"
     const val composeCompilerVersion = "1.1.1"
     const val material = "androidx.compose.material:material:$composeVersion"
     const val ui = "androidx.compose.ui:ui:$composeVersion"
-    const val uiToolingPreview = "androidx.compose.ui:ui-tooling-preview:$composeVersion"
+
     const val runtime = "androidx.compose.runtime:runtime:$composeVersion"
     const val compiler = "androidx.compose.compiler:compiler:$composeCompilerVersion"
 
@@ -18,4 +20,8 @@ object Compose {
 
     private const val lifecycleVersion = "2.4.1"
     const val viewModelCompose = "androidx.lifecycle:lifecycle-viewmodel-compose:$lifecycleVersion"
+
+    private const val toolingVersion = "1.1.1"
+    const val tooling = "androidx.compose.ui:ui-tooling:$toolingVersion"
+    const val uiToolingPreview = "androidx.compose.ui:ui-tooling-preview:$toolingVersion"
 }

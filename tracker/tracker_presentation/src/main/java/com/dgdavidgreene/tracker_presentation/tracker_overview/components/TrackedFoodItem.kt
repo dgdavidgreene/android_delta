@@ -22,7 +22,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.annotation.ExperimentalCoilApi
 import coil.compose.rememberImagePainter
-import com.dgdavidgreene.core_ui.LocalSpacing
+//import com.dgdavidgreene.core_ui.LocalSpacing
+import com.dgdavidgreene.ui.LocalSpacing
 import com.dgdavidgreene.tracker_domain.model.TrackedFood
 import com.dgdavidgreene.tracker_presentation.R
 import com.dgdavidgreene.tracker_presentation.components.NutrientInfo

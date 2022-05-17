@@ -3,7 +3,6 @@ apply {
 }
 
 dependencies {
-    "implementation"(project(Modules.domain))
+    "implementation"(project(Modules.core))
     "implementation"(Coroutines.coroutines)
 }
-666

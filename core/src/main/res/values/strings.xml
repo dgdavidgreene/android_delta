@@ -58,4 +58,9 @@
     <string name="error_not_100_percent">The values must add up to 100%</string>
     <string name="your_goal">Your goal:</string>
     <string name="delete">Delete</string>
+    <string name="gratitude">Gratitude</string>
+    <string name="i_am_thankful_for">I am thankful for</string>
+    <string name="i_am_blessed_with">I am blessed with</string>
+    <string name="i_am_grateful_that">I am grateful that</string>
+    <string name="i_am_lucky_because">I am lucky because</string>
 </resources>

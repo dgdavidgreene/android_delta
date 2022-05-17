@@ -15,7 +15,8 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp
-import com.dgdavidgreene.core_ui.LocalSpacing
+//import com.dgdavidgreene.core_ui.LocalSpacing
+import com.dgdavidgreene.ui.LocalSpacing
 
 @Composable
 fun NutrientInfo(

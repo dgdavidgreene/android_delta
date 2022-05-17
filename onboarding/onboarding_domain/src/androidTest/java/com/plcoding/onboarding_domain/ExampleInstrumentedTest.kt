@@ -1,4 +1,4 @@
-package com.dgdavidgreene.onboarding_domain
+package com.dgdavidgreene.gratitude_domain
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

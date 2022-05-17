@@ -16,7 +16,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.dgdavidgreene.core_ui.LocalSpacing
+//import com.dgdavidgreene.core_ui.LocalSpacing
+import com.dgdavidgreene.ui.LocalSpacing
 import com.dgdavidgreene.tracker_presentation.R
 
 @Composable

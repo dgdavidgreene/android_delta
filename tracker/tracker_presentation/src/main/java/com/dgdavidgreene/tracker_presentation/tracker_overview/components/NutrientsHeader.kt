@@ -9,17 +9,23 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.dgdavidgreene.core_ui.LocalSpacing
+//import com.dgdavidgreene.core_ui.LocalSpacing
+import com.dgdavidgreene.ui.LocalSpacing
 import com.dgdavidgreene.tracker_presentation.R
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Text
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.unit.sp
-import com.dgdavidgreene.core_ui.CarbColor
-import com.dgdavidgreene.core_ui.FatColor
-import com.dgdavidgreene.core_ui.ProteinColor
+//import com.dgdavidgreene.core_ui.CarbColor
+//import com.dgdavidgreene.core_ui.FatColor
+//import com.dgdavidgreene.core_ui.ProteinColor
 import com.dgdavidgreene.tracker_presentation.components.UnitDisplay
 import com.dgdavidgreene.tracker_presentation.tracker_overview.TrackerOverviewState
+import com.dgdavidgreene.ui.CarbColor
+import com.dgdavidgreene.ui.FatColor
+import com.dgdavidgreene.ui.ProteinColor
+
+
 
 @Composable
 fun NutrientsHeader(

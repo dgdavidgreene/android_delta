@@ -13,9 +13,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.dgdavidgreene.core.R
 import com.dgdavidgreene.core.util.UiEvent
-import com.dgdavidgreene.core_ui.LocalSpacing
-import com.dgdavidgreene.onboarding_presentation.components.ActionButton
-import com.dgdavidgreene.onboarding_presentation.components.UnitTextField
+import com.dgdavidgreene.ui.LocalSpacing
+import com.dgdavidgreene.ui.components.ActionButton
+import com.dgdavidgreene.ui.components.UnitTextField
 import kotlinx.coroutines.flow.collect
 
 @Composable
