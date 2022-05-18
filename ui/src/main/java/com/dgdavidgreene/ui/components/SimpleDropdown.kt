@@ -11,9 +11,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun SimpleDropdown(inputItems: List<String>){
+fun SimpleDropdown(inputItems: List<String>, padding: Int  = 16){
 
-    var items =  inputItems
+    val items =  inputItems
 
     var isMenuExpanded by remember { mutableStateOf(false) }
 
@@ -22,7 +22,7 @@ fun SimpleDropdown(inputItems: List<String>){
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .padding(16.dp),
+            .padding(padding.dp),
         contentAlignment = Alignment.CenterStart
     ) {
         SimpleDropdownMenu(

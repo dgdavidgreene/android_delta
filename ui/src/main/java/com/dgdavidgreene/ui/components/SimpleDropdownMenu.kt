@@ -23,13 +23,16 @@ fun SimpleDropdownMenu(
     updateMenuExpandStatus : () -> Unit,
     onDismissMenuView : () -> Unit,
     onMenuItemClick : (Int) -> Unit,
+    padding: Int = 16,
+    iconSize: Int = 24,
+    borderWidth: Float = 1.0f,
+    borderAlpha: Float = 0.5f,
 ) {
     Box(
         modifier = Modifier
             .fillMaxSize()
             .wrapContentSize(Alignment.TopStart)
-            .padding(top = 10.dp)
-            .border(0.5.dp, MaterialTheme.colors.onSurface.copy(alpha = 0.5f))
+            .border(borderWidth.dp, MaterialTheme.colors.onSurface.copy(alpha = borderAlpha))
             .clickable(
                 onClick = {
                     updateMenuExpandStatus()
@@ -38,11 +41,11 @@ fun SimpleDropdownMenu(
 
         ) {
 
-        ConstraintLayout(
+        ConstraintLayout (
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(16.dp)
-        ) {
+                .padding(padding.dp)
+        ){
 
             val (label, iconView) = createRefs()
 
@@ -70,7 +73,7 @@ fun SimpleDropdownMenu(
                 painter = displayIcon,
                 contentDescription = null,
                 modifier = Modifier
-                    .size(24.dp, 24.dp)
+                    .size(iconSize.dp, iconSize.dp)
                     .constrainAs(iconView) {
                         end.linkTo(parent.end)
                         top.linkTo(parent.top)
@@ -89,9 +92,7 @@ fun SimpleDropdownMenu(
                 menuItems.forEachIndexed { index, title ->
                     DropdownMenuItem(
                         onClick = {
-                            if (index != 0) {
-                                onMenuItemClick(index)
-                            }
+                            onMenuItemClick(index)
                         }) {
                         Text(text = title)
                     }
