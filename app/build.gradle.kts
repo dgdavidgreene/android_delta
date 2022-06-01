@@ -39,12 +39,12 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion = Compose.composeCompilerVersion
     }
-    packagingOptions {
+    /* packagingOptions {
         exclude("META-INF/AL2.0")
-        exclude("META-INF/LGPL2.1")
-        exclude("**/attach_hotspot_windows.dll")
-        exclude("META-INF/licenses/ASM")
-    }
+        exclude("META-INF/LGPL2.1")*/
+        //exclude("**/attach_hotspot_windows.dll")
+        /*exclude("META-INF/licenses/ASM")
+    }*/
 }
 
 dependencies {
