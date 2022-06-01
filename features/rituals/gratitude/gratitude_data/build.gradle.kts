@@ -1,5 +1,6 @@
-    apply {
+apply {
     from("$rootDir/base-module.gradle")
+    //from("sqldelight.database.gradle")
 }
 
 dependencies {
@@ -15,5 +16,5 @@ dependencies {
     "implementation"(Room.roomKtx)
     "implementation"(Room.roomRuntime)
 
-    "implementation"(SQLDelight.sqldelightAndroidDriver)
+    "implementation"(SQLDelight.androidDriver)
 }

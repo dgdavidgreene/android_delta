@@ -1,0 +1,11 @@
+dependencies {
+    implementation SQLDelight.androidDriver
+}
+
+    sqldelight {
+    database("ApplicationDatabase") {
+        packageName = "com.dgdavidgreene.gratitude.db"
+        schemaOutputDirectory = file("build/dbs")
+    }
+    linkSqlite = false
+}
